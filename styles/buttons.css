@@ -1,0 +1,60 @@
+/* Grey buttons */
+
+.grey-btn {
+	background-color: #36383f;
+	color: #f7f5e6;
+	font-family: Lato, san-serif;
+	font-size: 1em;
+	font-weight: 700;
+	padding: 15px 23px;	
+	border: none;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.grey-btn i {
+	color: #4bce79;
+	font-size: 1.2em;
+}
+
+.grey-btn:hover {
+	background-color: #5a5f73;	
+}
+
+/* Green buttons */
+
+.green-btn {
+	background-color: #47cf73;
+	color: black;
+	font-family: 'Cabin', sans-serif;
+	font-size: 2em;
+	font-weight: 550;
+	padding: 18px 25px;
+	border: none;
+	border-radius: 4px;
+}
+
+.green-btn:hover {
+	background-color: #248c46;
+	color: white;
+}
+
+/* Black buttons */
+
+.black-btn {
+	background-color: #111111;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	font-weight: 550;
+	padding: 18px 25px;
+	border: none;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+
+.black-btn:hover {
+	background-color: #36383f;
+}

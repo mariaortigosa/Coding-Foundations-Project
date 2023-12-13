@@ -1,0 +1,99 @@
+/* Common nav styles */
+
+.navigation-wrapper {
+	height: 80px;
+    width: 100%;
+	background-color: black;
+     /* Flexbox container */
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo and Links */
+
+.navigation-wrapper > .logo-links-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 60px;
+}
+
+/* Logo */
+
+.navigation-wrapper > .logo-links-wrapper > .logo-column img {
+	height: 30px;
+	width: auto;
+	margin: 0 25px;
+}
+
+/* Links column */
+
+.navigation-wrapper > .logo-links-wrapper > .links-column {
+	width: 450px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5px;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .explore {
+	color: #f4e187;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* Links column - Links wrapper */
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;	
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .nav-link a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.15em;
+	font-weight: 900;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .nav-link a:hover {
+	color: #acacac;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron a {
+	color: #acacac;
+	font-size: 1.1em;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron a:hover {
+	color: #c6c6c6;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron i {
+	font-size: 0.8em;
+    margin-left: 10px;
+	
+}
+
+/* Create, Search, Log In and Sign Up */
+.navigation-wrapper > .logo-links-wrapper > .create-login-signup {
+	width: 540px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 15px;
+	margin-right: 5px;
+}
+
+.navigation-wrapper > .logo-links-wrapper >.create-login-signup > .search-icon a {
+	color: #7b7e8b;
+	font-size: 1.5em;	
+	margin: 0 10px;
+
+}
+
+.navigation-wrapper > .logo-links-wrapper > .create-login-signup > .search-icon a:hover {
+	color: #acacac;
+}

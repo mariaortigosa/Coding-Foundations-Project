@@ -1,0 +1,33 @@
+.footer > .codepen-for-items {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+}
+
+.footer > .codepen-for-items > .codepen-for-item {
+	background-color: #36383f;
+	border: 1px solid #676767;
+	padding: 20px 0;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.footer > .codepen-for-items > .codepen-for-item:hover {
+	background-color: #5a5f73;
+}
+
+.footer > .codepen-for-items > .codepen-for-item span {
+	font-size: 1.3em;
+	font-weight: 900;
+	letter-spacing: 0.10px;
+}
+
+/* Page-end */
+
+.page-end {
+	width: 100%;
+	height: 90px;
+	background-color: #191a1d;
+}
